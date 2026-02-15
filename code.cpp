@@ -58,6 +58,7 @@ int main() {
     a = (sumx*sumxy-sumy*sumxsq)/(sumx*sumx-no*sumxsq);
     b= (sumy-a*no)/sumx;
     cout << left << setw(10) << sumx << left << setw(10) << sumy << left << setw(10) << sumxy << left << setw(10) << sumxsq << endl;
+    cout << "For y = ax + b: " << endl;
     cout << "a: " << a << endl;
     cout << "b: " << b << endl;
     return 0;
